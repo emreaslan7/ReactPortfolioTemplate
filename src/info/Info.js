@@ -27,7 +27,7 @@ export const info = {
     firstName: "Emre",
     lastName: "Aslan",
     initials: "EA", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Web3 Developer",
+    position: "a Junior Web3 Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -50,10 +50,10 @@ export const info = {
         }
     ],
     bio: 
-    "Hello! I'm Emre. I study electric-electronic at Bursa, I coding smart contracts and some web2 stuff, and I enjoy writing about new web3 technologies",
+    "Hello! I'm Emre. I study electric-electronic at Bursa-Turkey, I coding smart contracts and some web2 stuff, and I enjoy writing about new web3 tech I am enthusiastic of learning new technologies and using them. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript','solidity','hardhat', 'react', 'nextjs', 'tailwind', 'chakra-ui',"redux"],
+            proficientWith: ['javascript','solidity','hardhat', 'react', 'nextjs', 'tailwind','ethers', 'chakra-ui',"redux"],
             exposedTo: ['nodejs', 'python', 'adobe illustrator']
         }
     ,
