@@ -24,10 +24,8 @@ export default function Home() {
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>
-            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
-               {info.socials.map((social, index) => (
-                  <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
-               ))}
+            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '1.75rem', md: '2rem'}}>
+               <SocialIcon />
             </Box>
          </Box>
       </Box>
