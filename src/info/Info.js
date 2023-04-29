@@ -1,12 +1,14 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/projects/HearthHue-mockup.png"
+import mock2 from "../img/projects/ethscansimply-mockup.png"
+import mock3 from "../img/projects/spendbitcoin-mockup.png"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
+import articleImg01 from "../img/articles/article01.png";
+import articleImg02 from "../img/articles/article02.png";
+import articleImg03 from "../img/articles/article03.png";
+import articleImg04 from "../img/articles/article04.png";
+import articleImg05 from "../img/articles/article05.png";
+
 
 // export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 export let colors = ["#92000a","#E9967A"];
@@ -87,34 +89,104 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "HearthHue",
+            descriptionProject: 
+            
+            `HearthHue is a charity organization aimed at collecting donations from people to help those in need.
+
+            The project allows users to donate Ether (ETH), which are automatically stored and managed through a smart contract.`,
+            descriptionYou: `This project is developed for improving Hardhat skills, learning smart contract testing.`,
+            live: "https://hearth-hue.vercel.app/", 
+            source: "https://github.com/emreaslan7/ether-donation-dapp",
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "ETHscanSimply",
+            descriptionProject: 
+            
+            `An easy-to-use interface for exploring Ethereum. Ideal for beginners and kids!
+            Many people can use this interface to explore ethereum blockchain without having to worry about confusing things.`,
+            descriptionYou: `This project is developed for improving Ethers.js skills, learning deep dive Next.js and ChakraUI.`,
+
+            live: "https://ethscansimply.vercel.app/",
+            source: "https://github.com/emreaslan7/EthScanSimply",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Spend Bitcoin",
+            descriptionProject: 
+            
+            `Experience the Rise of Bitcoin! If you had 1 bitcoin in any year, what would you buy?
+
+            Explore the historical price increases of Bitcoin and use your strategy to decide which year's investment is the best while having fun!`,
+            descriptionYou: `This project is developed for improving React-Redux skills, learning deep dive TailwindCSS.`,
+
+            live: "https://spend-bitcoin.vercel.app/",
+            source: "https://github.com/emreaslan7/spend-bitcoin",
             image: mock3
         },
+        // {
+        //     title: "Project 4",
+        //     descriptionProject: 
+            
+        //     `HearthHue is a charity organization aimed at collecting donations from people to help those in need.
+
+        //     The project allows users to donate Ether (ETH), which are automatically stored and managed through a smart contract.`,
+        //     descriptionYou: `This project is developed for improving hardhat skills, learning smart contract testing...`,
+
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     descriptionProject: 
+            
+        //     `HearthHue is a charity organization aimed at collecting donations from people to help those in need.
+
+        //     The project allows users to donate Ether (ETH), which are automatically stored and managed through a smart contract.`,
+        //     descriptionYou: `This project is developed for improving hardhat skills, learning smart contract testing...`,
+
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
+    ],
+    articles: [
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
+            title: "A Deep Dive into the Digital Signatures, Encryption, and Hash Function",
+            description : "Digital signatures, Symmetric and Asymmetric Encryption, Hash Function, RSA and Elliptic Curve Algorithm, and more...",
+            image : articleImg05,
+            link: "https://emreaslan.hashnode.dev/a-deep-dive-into-the-digital-signatures-encryption-and-hash-function",
+            readTime: "12 minute",
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+            title: "What are Rentables NFTs? Sample Smart Contract With EIP-4907",
+            description : "Using the EIP-4907, we learn about the structure of a rentable NFT by creating a simple smart contract.",
+            image : articleImg04,
+            link: "https://emreaslan.hashnode.dev/what-are-rentables-nfts-eip-4907",
+            readTime: "7 minute",
+        },
+        {
+            title: "The Philosophy of Ownership and Decentralization in Web3",
+            description : "From the perspective of the ownership and decentralization of the web.",
+            image : articleImg03,
+            link: "https://emreaslan.hashnode.dev/the-philosophy-of-web3",
+            readTime: "8 minute",
+        },        
+        {
+            title: "What are Soulbound Tokens SBT?",
+            description : "Soulbound tokens are opening the door to a whole new era in the ownership and transfer of digital assets; Let's delve deeper into the workings, benefits and potential future implications of Soulbound technology.",
+            image : articleImg02,
+            link: "https://emreaslan.hashnode.dev/what-are-soulbound-tokens-sbt",
+            readTime: "4 minute",
+        },
+        {
+            title: "What are the Ethereum Protocols ERC || EIP",
+            description : "So what, if I wanted to, I could set a standard and revolutionize the whole ethereum? Did anyone that?",
+            image : articleImg01,
+            link: "https://emreaslan.hashnode.dev/what-are-the-ethereum-protocols-erc-eip",
+            readTime: "3 minute",
+        },
     ]
 }
