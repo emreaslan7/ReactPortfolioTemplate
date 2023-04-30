@@ -2,12 +2,16 @@ import self from "../img/self.png"
 import mock1 from "../img/projects/HearthHue-mockup.png"
 import mock2 from "../img/projects/ethscansimply-mockup.png"
 import mock3 from "../img/projects/spendbitcoin-mockup.png"
+import mock4 from "../img/projects/removiect-mockup.png"
+
+import emreImg from "../img/emre.png";
 
 import articleImg01 from "../img/articles/article01.png";
 import articleImg02 from "../img/articles/article02.png";
 import articleImg03 from "../img/articles/article03.png";
 import articleImg04 from "../img/articles/article04.png";
 import articleImg05 from "../img/articles/article05.png";
+import articleImg06 from "../img/articles/article06.png";
 
 
 // export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -26,9 +30,11 @@ of what each of the values mean.
  */
 
 export const info = {
+
     firstName: "Emre",
     lastName: "Aslan",
     initials: "EA", // the example uses first and last, but feel free to use three or more if you like.
+    avatarImage: emreImg,
     position: "a Junior Web3 Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -125,19 +131,19 @@ export const info = {
             source: "https://github.com/emreaslan7/spend-bitcoin",
             image: mock3
         },
-        // {
-        //     title: "Project 4",
-        //     descriptionProject: 
+        {
+            title: "Removiect",
+            descriptionProject: 
             
-        //     `HearthHue is a charity organization aimed at collecting donations from people to help those in need.
+            `Removiect is a personal movie tracking application.
 
-        //     The project allows users to donate Ether (ETH), which are automatically stored and managed through a smart contract.`,
-        //     descriptionYou: `This project is developed for improving hardhat skills, learning smart contract testing...`,
+            You can search for any movie and and find information about them.`,
+            descriptionYou: `Removiect is simply a project to develop React & tailwind skills.`,
 
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock4
-        // },
+            live: "https://removiect.netlify.app/",
+            source: "https://github.com/emreaslan7/react-movie",
+            image: mock4
+        },
         // {
         //     title: "Project 5",
         //     descriptionProject: 
@@ -154,25 +160,32 @@ export const info = {
     ],
     articles: [
         {
+            title: "Double Spending Problem But Through The Eyes of Satoshi and Vitalik",
+            description : "What is double spending? Can it be prevented in a completely transparent and confidential manner? Different solutions brought by Satoshi and Vitalik",
+            image : articleImg06,
+            link: "https://emreaslan.hashnode.dev/double-spending-problem-but-through-the-eyes-of-satoshi-and-vitalik",
+            readTime: "9 minutes",
+        },
+        {
             title: "A Deep Dive into the Digital Signatures, Encryption, and Hash Function",
             description : "Digital signatures, Symmetric and Asymmetric Encryption, Hash Function, RSA and Elliptic Curve Algorithm, and more...",
             image : articleImg05,
             link: "https://emreaslan.hashnode.dev/a-deep-dive-into-the-digital-signatures-encryption-and-hash-function",
-            readTime: "12 minute",
+            readTime: "12 minutes",
         },
         {
             title: "What are Rentables NFTs? Sample Smart Contract With EIP-4907",
             description : "Using the EIP-4907, we learn about the structure of a rentable NFT by creating a simple smart contract.",
             image : articleImg04,
             link: "https://emreaslan.hashnode.dev/what-are-rentables-nfts-eip-4907",
-            readTime: "7 minute",
+            readTime: "7 minutes",
         },
         {
             title: "The Philosophy of Ownership and Decentralization in Web3",
             description : "From the perspective of the ownership and decentralization of the web.",
             image : articleImg03,
             link: "https://emreaslan.hashnode.dev/the-philosophy-of-web3",
-            readTime: "8 minute",
+            readTime: "8 minutes",
         },        
         {
             title: "What are Soulbound Tokens SBT?",

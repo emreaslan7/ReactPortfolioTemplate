@@ -7,6 +7,8 @@ footer {
 .dark {
   background-color: $dark;
   color: $white;
+  border: #fff;
+  border-color: #fff;
   transition: all 400ms;
 
   a, i, li {
@@ -21,11 +23,13 @@ footer {
   footer {
     color: $white;
   }
+  
 }
 
 .light {
   background-color: $white;
   color: $dark;
+  border-color: #000;
   transition: all 400ms;
 }
 
