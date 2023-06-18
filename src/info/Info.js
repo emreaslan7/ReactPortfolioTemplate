@@ -1,10 +1,12 @@
+// import self from "../img/self.png"
 import self from "../img/self.png"
 import mock1 from "../img/projects/HearthHue-mockup.png"
 import mock2 from "../img/projects/ethscansimply-mockup.png"
 import mock3 from "../img/projects/spendbitcoin-mockup.png"
 import mock4 from "../img/projects/removiect-mockup.png"
+import mock5 from "../img/projects/robopunksnft-mockup.png"
 
-import emreImg from "../img/emre.png";
+// import emreImg from "../img/emre.png";
 
 import articleImg01 from "../img/articles/article01.png";
 import articleImg02 from "../img/articles/article02.png";
@@ -34,7 +36,7 @@ export const info = {
     firstName: "Emre",
     lastName: "Aslan",
     initials: "EA", // the example uses first and last, but feel free to use three or more if you like.
-    avatarImage: emreImg,
+    avatarImage: self,
     position: "a Junior Web3 Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -78,10 +80,10 @@ export const info = {
             label: 'swimming',
             emoji: '🏊‍♂️'
         },
-        // {
-        //     label: 'fitness',
-        //     emoji: '💪'
-        // },
+        {
+            label: 'fitness',
+            emoji: '💪'
+        },
         // {
         //     label: 'camping',
         //     emoji: '🏕️'
@@ -94,6 +96,16 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "RoboPunksNFT",
+            descriptionProject: 
+            
+            `It's 2078. Can the RoboPunks NFT save humans from destructive rampant NFT speculation? Mint RoboPunks to find out...`,
+            descriptionYou: `This project is developed for improving ERC721 NFT contracts, solidity, hardhat and openzeppelin`,
+            live: "https://robo-punks-nft-git-master-emreaslan7.vercel.app/", 
+            source: "https://github.com/emreaslan7/RoboPunksNFT-mintingwebsite",
+            image: mock5
+        },
         {
             title: "HearthHue",
             descriptionProject: 

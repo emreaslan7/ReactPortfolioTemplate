@@ -14,7 +14,7 @@ export default function Article(props) {
        <Box  display={'flex'} borderRadius={'0.5rem'} flexDirection={{ xs: "column", md: "row" }} className={classNames(Style.shadowed)} alignItems={'center'} width={'100%'}>
          
           <Box  component={'img'} src={image} alt={'mockup'} maxWidth={{base:'none', md:'70%'}} 
-          borderRadius={{xs:'0.5rem 0.5rem 0 0', md:'0.5rem 0 0 0.5rem'}}
+          borderRadius={{xs:'0.5rem 0.5rem 0 0', md:'0.5rem 0 0 0.5rem'}} loading={'lazy'}
            zIndex={2}/>
           
           <Box className={'portfolio'} justifyContent={'space-around'} 
