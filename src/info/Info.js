@@ -5,6 +5,7 @@ import mock2 from "../img/projects/ethscansimply-mockup.png"
 import mock3 from "../img/projects/spendbitcoin-mockup.png"
 import mock4 from "../img/projects/removiect-mockup.png"
 import mock5 from "../img/projects/robopunksnft-mockup.png"
+import mock6 from "../img/projects/metaversemarketplace-mockup.png"
 
 // import emreImg from "../img/emre.png";
 
@@ -96,6 +97,16 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "MetaverseMarketplace",
+            descriptionProject: 
+            
+            `MetaverseMarketplace allows artists and photographers to showcase and sell their artwork on the Polygon network. Also, art enthusiasts can explore the collections and buy the pieces they want.`,
+            descriptionYou: `By writing smart contracts using Solidity and Hardhat, I aimed to enhance my skills in smart contract development, while also refining my expertise in Next.js and Tailwind CSS for creating a seamless user experience.`,
+            live: "https://nftmarketplacepolygon.vercel.app/", 
+            source: "https://github.com/emreaslan7/nftmarketplacepolygon",
+            image: mock6
+        },
         {
             title: "RoboPunksNFT",
             descriptionProject: 

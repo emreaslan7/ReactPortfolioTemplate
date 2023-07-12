@@ -22,7 +22,7 @@ function PortfolioBlock(props) {
                   <Box component={'text'}>{descriptionYou}</Box>
                </Box>
                
-            <Box p={1} border={'2px solid'} borderRadius={'0.5rem'} >
+            <Box p={1} mt={2} border={'2px solid'} borderRadius={'0.5rem'} >
                <IconLink link={live} title={'Live Demo '} icon={'fa fa-safari'}/>
             </Box>
             <Box p={1} border={'2px solid'} borderRadius={'0.5rem'}>
