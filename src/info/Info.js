@@ -15,6 +15,7 @@ import articleImg03 from "../img/articles/article03.png";
 import articleImg04 from "../img/articles/article04.png";
 import articleImg05 from "../img/articles/article05.png";
 import articleImg06 from "../img/articles/article06.png";
+import articleImg07 from "../img/articles/article07.png";
 
 
 // export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -182,6 +183,13 @@ export const info = {
         // }
     ],
     articles: [
+        {
+            title: "Scaling Ethereum Securely: Exploring the Innovation of Optimistic Rollups and Fraud Proofs",
+            description : "Dive into the Optimistic Rollups and Fraud Proofs world, revolutionizing Ethereum's scalability while preserving utmost security and decentralization.",
+            image : articleImg07,
+            link: "https://emreaslan.hashnode.dev/scaling-ethereum-securely-exploring-the-innovation-of-optimistic-rollups-and-fraud-proofs",
+            readTime: "16 minutes",
+        },
         {
             title: "Double Spending Problem But Through The Eyes of Satoshi and Vitalik",
             description : "What is double spending? Can it be prevented in a completely transparent and confidential manner? Different solutions brought by Satoshi and Vitalik",
