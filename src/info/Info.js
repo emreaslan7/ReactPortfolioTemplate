@@ -7,6 +7,7 @@ import mock4 from "../img/projects/removiect-mockup.png";
 import mock5 from "../img/projects/robopunksnft-mockup.png";
 import mock6 from "../img/projects/metaversemarketplace-mockup.png";
 import mock7 from "../img/projects/twitella-mockup.png";
+import mock8 from "../img/projects/wifg-mockup.png";
 
 // import emreImg from "../img/emre.png";
 
@@ -97,7 +98,14 @@ export const info = {
     // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
   portfolio: [
-    // This is where your portfolio projects will be detailed
+    {
+      title: "WIFG",
+      descriptionProject: `The Solana Blockchain Data Explorer provides a user-friendly interface and real-time data, analyze, and understand blockchain information with ease.`,
+      descriptionYou: `This Next.js-based project visualizes Solana blockchain data, and its modern interface, built with tools like Shadcn.ui, Tailwind CSS, and Hello Moon, is inspired by the "Dog Wif Hat" meme.`,
+      live: "https://twitella.vercel.app/",
+      source: "https://github.com/emreaslan7/twitella",
+      image: mock8,
+    },
     {
       title: "Twitella",
       descriptionProject: `Twitella is a cutting-edge MERN (MongoDB, Express.js, React, Node.js) stack application that empowers users to connect, share, and engage in meaningful conversations.`,
@@ -198,7 +206,8 @@ export const info = {
       readTime: "16 minutes",
     },
     {
-      title: "Double Spending Problem But Through The Eyes of Satoshi and Vitalik",
+      title:
+        "Double Spending Problem But Through The Eyes of Satoshi and Vitalik",
       description:
         "What is double spending? Can it be prevented in a completely transparent and confidential manner? Different solutions brought by Satoshi and Vitalik",
       image: articleImg06,
@@ -206,7 +215,8 @@ export const info = {
       readTime: "9 minutes",
     },
     {
-      title: "A Deep Dive into the Digital Signatures, Encryption, and Hash Function",
+      title:
+        "A Deep Dive into the Digital Signatures, Encryption, and Hash Function",
       description:
         "Digital signatures, Symmetric and Asymmetric Encryption, Hash Function, RSA and Elliptic Curve Algorithm, and more...",
       image: articleImg05,
