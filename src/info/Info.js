@@ -102,8 +102,8 @@ export const info = {
       title: "WIFG",
       descriptionProject: `The Solana Blockchain Data Explorer provides a user-friendly interface and real-time data, analyze, and understand blockchain information with ease.`,
       descriptionYou: `This Next.js-based project visualizes Solana blockchain data, and its modern interface, built with tools like Shadcn.ui, Tailwind CSS, and Hello Moon, is inspired by the "Dog Wif Hat" meme.`,
-      live: "https://twitella.vercel.app/",
-      source: "https://github.com/emreaslan7/twitella",
+      live: "https://wifg-solana-explorer.vercel.app/",
+      source: "https://github.com/emreaslan7/wifg-solana-explorer",
       image: mock8,
     },
     {
